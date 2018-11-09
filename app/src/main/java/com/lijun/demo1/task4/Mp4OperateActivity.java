@@ -43,7 +43,8 @@ public class Mp4OperateActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mp4_operate);
         // 获取权限
         int checkWriteExternalPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        int checkReadExternalPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);if (checkWriteExternalPermission != PackageManager.PERMISSION_GRANTED ||
+        int checkReadExternalPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
+        if (checkWriteExternalPermission != PackageManager.PERMISSION_GRANTED ||
                 checkReadExternalPermission != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(this, new String[]{
