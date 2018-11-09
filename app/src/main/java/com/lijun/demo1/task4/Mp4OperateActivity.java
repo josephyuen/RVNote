@@ -98,7 +98,6 @@ public class Mp4OperateActivity extends AppCompatActivity {
             //Windows Media	        .wmv	        video/x-ms-wmv
 
             String mime = format.getString(MediaFormat.KEY_MIME);
-            //此处可能有问题if (!mime.startsWith("video/")){
 
             if (!mime.startsWith("video")){
                 logout("mime not video, continue search");
