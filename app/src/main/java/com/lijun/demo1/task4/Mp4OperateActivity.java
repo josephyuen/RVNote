@@ -32,8 +32,8 @@ import java.nio.ByteBuffer;
 public class Mp4OperateActivity extends AppCompatActivity {
     private static final String TAG = "Mp4OperateActivity";
     private static final String SDCARD_PATH = Environment.getExternalStorageDirectory().getPath();
-    private static final String INPUT_FILEPATH = SDCARD_PATH + "/input.mp4";
-    private static final String OUTPUT_FILEPATH = SDCARD_PATH + "/output.mp4";
+    private static final String INPUT_FILEPATH = SDCARD_PATH + "/doit.mp4";
+    private static final String OUTPUT_FILEPATH = SDCARD_PATH + "/xujingli.mp4";
 
     private ScrollView scrollView;
     private LinearLayout linearView;
